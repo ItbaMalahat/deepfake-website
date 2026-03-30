@@ -6,7 +6,7 @@
   <title>Deeptrace | South Asia Deepfake Detection Challenge</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -17,7 +17,7 @@
       <nav class="main-nav">
         <a href="index.html" class="active">About</a>
         <a href="team.html">Team</a>
-        <a href="join.html">Join Us</a>
+        <a href="join.html" class="nav-cta">Contribute</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
@@ -32,12 +32,35 @@
         <span></span><span></span><span></span><span></span><span></span><span></span>
       </div>
       <div class="container hero-content">
-        <p class="eyebrow">Deepfake Detection Research</p>
-        <h1>Are you really safe online?</h1>
-        <p class="lead">Advancements in AI-generated media pose new safety risks. Efforts have been made worldwide, but culturally relevant detection in South Asia is urgently needed. This project unites researchers across five countries to create datasets and detection models tailored for the region.</p>
+        <p class="eyebrow">South Asia · Open science</p>
+        <h1>Help detect deepfakes that <span class="gradient-accent">look like your community</span></h1>
+        <p class="lead">We are building the region’s most culturally grounded deepfake dataset and benchmarks. Whether you label samples, review media, or share expertise, your contribution directly trains fairer detection for South Asia.</p>
         <div class="btn-row">
-          <a class="btn btn-primary" href="#mission">Learn More About Our Research</a>
-          <a class="btn btn-secondary" href="join.html">Join the Challenge</a>
+          <a class="btn btn-primary" href="join.html">Start contributing</a>
+          <a class="btn btn-secondary" href="#how-contribute">How you can help</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-contribute" class="section-tight contributor-strip" aria-labelledby="contrib-heading">
+      <div class="container">
+        <p class="strip-eyebrow" id="contrib-heading">For crowdsourced contributors</p>
+        <div class="strip-grid">
+          <div class="strip-item">
+            <span class="strip-item-icon" aria-hidden="true">◇</span>
+            <h3>Label &amp; verify</h3>
+            <p>Annotate or verify image, video, and audio samples so models learn real regional cues—not only Western benchmarks.</p>
+          </div>
+          <div class="strip-item">
+            <span class="strip-item-icon" aria-hidden="true">◎</span>
+            <h3>Shape the benchmark</h3>
+            <p>Your judgments help define what “fake” means in local languages, politics, and everyday media.</p>
+          </div>
+          <div class="strip-item">
+            <span class="strip-item-icon" aria-hidden="true">✦</span>
+            <h3>Join a regional cohort</h3>
+            <p>Work alongside students and researchers across five countries with clear tasks and academic oversight.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -91,9 +114,17 @@
         </div>
       </div>
     </section>
+
+    <section class="section cta-prefooter" aria-labelledby="cta-contrib-title">
+      <div class="container cta-inline">
+        <h2 id="cta-contrib-title">Ready to add your piece to the dataset?</h2>
+        <a class="btn btn-primary" href="join.html">Choose your contribution path</a>
+        <p class="trust-note">Contributions are used for research and model evaluation under the initiative’s guidelines. Pick the role that fits you—student, independent researcher, or organization.</p>
+      </div>
+    </section>
   </main>
 
-  <footer><div class="container">South Asia Deepfake Detection Challenge · Research collaboration across South Asia</div></footer>
+  <footer><div class="container">South Asia Deepfake Detection Challenge · Built with contributors across South Asia</div></footer>
   <script src="script.js"></script>
 </body>
 </html>
