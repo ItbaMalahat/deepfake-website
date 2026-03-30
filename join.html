@@ -6,7 +6,7 @@
   <title>Deeptrace | Join Us</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -17,7 +17,7 @@
       <nav class="main-nav">
         <a href="index.html">About</a>
         <a href="team.html">Team</a>
-        <a href="join.html" class="active">Join Us</a>
+        <a href="join.html" class="active nav-cta">Contribute</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
@@ -26,49 +26,75 @@
   <main>
     <section class="join-hero">
       <div class="container hero-content small">
-        <p class="eyebrow">Collaboration Opportunities</p>
-        <h1>Join Our Mission to Combat Deepfakes</h1>
-        <p class="lead">The global South deserves culturally aware AI safety. Join researchers, students, and organizations across five countries to advance deepfake detection.</p>
+        <p class="eyebrow">Crowdsourcing · Deeptrace</p>
+        <h1>Your eye for detail <span class="gradient-accent">trains safer AI</span></h1>
+        <p class="lead">Open a short form and tell us how you want to help—labeling, technical work, or partnership. Every contribution strengthens detection that respects South Asian languages, media formats, and lived context—ethically and carefully.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScO3B68Q9uq_oaJqIaFz0S3AkW1AAPtJHrEnj_vkHC3fPyFiw/viewform" target="_blank" rel="noopener">I’m a student — apply</a>
+          <a class="btn btn-secondary" href="#paths">See all paths</a>
+        </div>
+        <p class="trust-note">Forms are hosted securely on Google. We use your responses only to match you to research tasks and to stay in touch about the initiative.</p>
+        <div class="perk-row" aria-label="What contributors get">
+          <span class="perk-pill">Real research impact</span>
+          <span class="perk-pill">Credit &amp; transparency</span>
+          <span class="perk-pill">Flexible time</span>
+          <span class="perk-pill">Regional community</span>
+        </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section-tight ready-workspace" aria-labelledby="ready-workspace-heading">
+      <div class="container ready-workspace-inner">
+        <p class="eyebrow">Ready when you are</p>
+        <h2 id="ready-workspace-heading">If you’re ready to contribute right now</h2>
+        <p class="ready-workspace-lead">Jump into the DeepTrace workspace—sign in to label media, make submissions, and see the leaderboard. No need to wait if you already know you want in.</p>
+        <a class="btn btn-primary btn-workspace" href="https://deepfake-research.org/workspace" target="_blank" rel="noopener noreferrer">Open workspace</a>
+        <p class="ready-workspace-hint">New here? Use the forms below to tell us how you’d like to help—we’ll guide you from there.</p>
+      </div>
+    </section>
+
+    <section class="section" id="paths">
       <div class="container">
-        <h2>Why Join</h2>
+        <p class="eyebrow">Pick a path</p>
+        <h2>Three ways to plug in</h2>
+        <p class="section-intro">Same mission—different time and skills. Choose the card that fits you; you can always reach out later if your situation changes.</p>
         <div class="card-grid three">
           <article class="info-card">
+            <span class="card-icon" aria-hidden="true">🎓</span>
             <h3>Students</h3>
-            <p>Contribute to cutting-edge research projects, annotation work, evaluation pipelines, and regionally relevant datasets.</p>
-            <a class="btn btn-secondary" href="https://forms.gle/d8JGF9AmUtH7AhtEA" target="_blank" rel="noopener">Student Form</a>
+            <p>Annotation, evaluation, and research support on datasets built for the region—strong fit if you want hands-on ML and media literacy experience.</p>
+            <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScO3B68Q9uq_oaJqIaFz0S3AkW1AAPtJHrEnj_vkHC3fPyFiw/viewform" target="_blank" rel="noopener">Open student form</a>
           </article>
           <article class="info-card">
-            <h3>Independent Researchers &amp; Graduates</h3>
-            <p>Collaborate on model development and analysis while helping shape culturally grounded datasets and benchmarks.</p>
-            <a class="btn btn-secondary" href="https://forms.gle/ztGhcib834hzraFX8" target="_blank" rel="noopener">Researcher Form</a>
+            <span class="card-icon" aria-hidden="true">🔬</span>
+            <h3>Independent researchers &amp; graduates</h3>
+            <p>Models, analysis, and benchmark design—help us stress-test detection where global tools often fail.</p>
+            <a class="btn btn-secondary" href="https://forms.gle/ztGhcib834hzraFX8" target="_blank" rel="noopener">Open researcher form</a>
           </article>
           <article class="info-card">
-            <h3>Organizations &amp; Brands</h3>
-            <p>Support the initiative, integrate detection tools, or sponsor research that improves information integrity across South Asia.</p>
-            <a class="btn btn-secondary" href="https://forms.gle/ZBdL3to5X79JJ7Xm6" target="_blank" rel="noopener">Partner Form</a>
+            <span class="card-icon" aria-hidden="true">🤝</span>
+            <h3>Organizations &amp; brands</h3>
+            <p>Data partnerships, tooling, and sponsorship so the ecosystem scales responsibly.</p>
+            <a class="btn btn-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLScnuND9R3GxKMCSHQAl9JSYHR-8cRI1Zo3cHRqo4Y-YUXZFHg/viewform" target="_blank" rel="noopener">Open partner form</a>
           </article>
         </div>
       </div>
     </section>
 
     <section class="section section-dark">
-      <div class="container cta-box">
-        <h2>South Asia needs broader AI safety collaboration</h2>
-        <p>Deepfakes are on the rise, yet research in South Asia has been limited. This initiative brings together students, researchers, and organizations to build meaningful regional solutions.</p>
+      <div class="container cta-box cta-box--contributors">
+        <h2>More contributors, stronger detection</h2>
+        <p>Deepfakes spread fast; inclusive datasets and benchmarks cannot be built in silos. Add your voice to a cross-border effort led by academic partners.</p>
         <div class="cta-row">
-          <a class="btn btn-primary" href="https://forms.gle/d8JGF9AmUtH7AhtEA" target="_blank" rel="noopener">Apply as Student</a>
+          <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScO3B68Q9uq_oaJqIaFz0S3AkW1AAPtJHrEnj_vkHC3fPyFiw/viewform" target="_blank" rel="noopener">Apply as Student</a>
           <a class="btn btn-secondary" href="https://forms.gle/ztGhcib834hzraFX8" target="_blank" rel="noopener">Apply as Researcher</a>
-          <a class="btn btn-secondary" href="https://forms.gle/ZBdL3to5X79JJ7Xm6" target="_blank" rel="noopener">Partner with Us</a>
+          <a class="btn btn-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLScnuND9R3GxKMCSHQAl9JSYHR-8cRI1Zo3cHRqo4Y-YUXZFHg/viewform" target="_blank" rel="noopener">Partner with Us</a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer><div class="container">Students · Researchers · Organizations · Shared mission</div></footer>
+  <footer><div class="container">Students · Researchers · Organizations · One benchmark for the region</div></footer>
   <script src="script.js"></script>
 </body>
 </html>
